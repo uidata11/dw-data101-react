@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+footer.footer {
+  color: rgba(235, 235, 235, 0.815);
+}
+
+footer .list button {
+  background-color: transparent;
+  border: none;
+  color: rgba(235, 235, 235, 0.815);
+  cursor: pointer;
+  text-decoration: underline;
+}
