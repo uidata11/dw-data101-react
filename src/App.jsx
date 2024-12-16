@@ -1,19 +1,24 @@
-// rafce + enterkey
-import React from "react";
-import Header from "./layout/Header";
-import Footer from "./layout/Footer";
+// // rafce + enterkey
+// import React from "react";
+// import Header from "./layout/Header";
+// import Footer from "./layout/Footer";
+// import Lbutton from "./layout/Lbutton";
+// import Gallery from "./components/Gallery";
+// import Auth from "./components/Auth";
 
-const App = () => {
-  return (
-    <div>
-      <Header />
-      <h1>Apps</h1>
-      <Footer />
-    </div>
-  );
-};
-
-export default App;
+// const App = () => {
+//   return (
+//     <div>
+//       <Header />
+//       <main>
+//         <Gallery />
+//         <Auth />
+//       </main>
+//       <Footer />
+//     </div>
+//   );
+// };
+// export default App;
 
 // import { useState } from "react";
 // import reactLogo from "./assets/react.svg";
@@ -48,5 +53,22 @@ export default App;
 //     </>
 //   );
 // }
-
 // export default App;
+
+import React from "react";
+import "./App.css";
+import SampleHeader from "./layout/SampleHeader";
+import { SiNetflix } from "react-icons/si";
+import SampleLogin from "./layout/SampleLogin";
+
+const App = () => {
+  return (
+    <div>
+      <main>
+        <SampleHeader />
+      </main>
+    </div>
+  );
+};
+
+export default App;

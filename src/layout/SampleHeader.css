@@ -1,0 +1,21 @@
+div.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.left {
+  display: flex;
+  column-gap: 10px;
+}
+.header button {
+  border: none;
+  background-color: transparent;
+}
+
+button.login {
+  border-radius: 7px;
+  background-color: rgb(219, 36, 36);
+  color: whitesmoke;
+  font-size: 10px;
+  padding: 1%;
+}

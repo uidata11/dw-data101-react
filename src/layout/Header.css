@@ -23,7 +23,7 @@ header .netflix {
 header ul .lang {
   background-color: transparent;
   border: 1px groove var(--gray5);
-  color: var(--gray0);
+  color: rgba(235, 235, 235, 0.745);
   padding: 4px 23px;
   border-radius: 4px;
   font-size: 16px;
@@ -34,10 +34,11 @@ header ul .log {
   font-weight: 650;
   color: rgb(235, 235, 235);
   background-color: rgb(226, 24, 24);
-  padding: 6px 18px;
+  padding: 8px 20px;
   border-radius: 4px;
   cursor: pointer;
 }
 header ul .log:hover {
-  color: red;
+  background-color: rgb(180, 20, 20);
+  transition: all 0.5s;
 }

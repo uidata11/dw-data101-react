@@ -1,8 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { SiNetflix } from "react-icons/si";
-import { IoLanguageSharp } from "react-icons/io5";
-import { MdArrowDropDown } from "react-icons/md";
+import Lbutton from "./Lbutton";
 const Header = () => {
   return (
     <header className="header">
@@ -11,11 +10,7 @@ const Header = () => {
       </button>
       <ul>
         <li>
-          <button className="lang">
-            <IoLanguageSharp />
-            한국어
-            <MdArrowDropDown />
-          </button>
+          <Lbutton />
         </li>
         <li>
           <button className="log">로그인</button>

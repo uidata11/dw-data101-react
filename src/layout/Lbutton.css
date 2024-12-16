@@ -1,0 +1,9 @@
+.lang {
+  background-color: transparent;
+  border: 1px groove var(--gray5);
+  color: rgba(235, 235, 235, 0.745);
+  padding: 6px 23px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
