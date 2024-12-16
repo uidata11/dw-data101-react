@@ -1,0 +1,23 @@
+.gal {
+  padding: 30px;
+}
+.gal img {
+  width: 100%;
+  position: relative;
+}
+.gal .leri button {
+  border: 1px solid gainsboro;
+  border-radius: 100px;
+  color: whitesmoke;
+  padding: 20px 5px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gal .leri button.l {
+}
+.gal .leri button.r {
+  right: 0;
+  transform: translate(0, -50%);
+}

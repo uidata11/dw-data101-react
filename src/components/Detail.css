@@ -1,0 +1,33 @@
+.detail {
+  margin: 20px;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid rgb(80, 80, 80);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 15px;
+  transition: all 0.4s;
+}
+.detail p,
+b {
+  color: whitesmoke;
+  background-color: transparent;
+}
+.detail button {
+  border: 1px solid rgb(70, 70, 70);
+  background-color: rgb(36, 36, 36);
+  border-radius: 100px;
+  padding: 5px;
+  color: whitesmoke;
+  width: 20%;
+}
+.detail:hover {
+  background-color: rgb(54, 54, 54);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+.detail button:hover {
+  background-color: rgb(85, 85, 85);
+}

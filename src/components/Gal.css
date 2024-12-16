@@ -1,0 +1,36 @@
+#gal {
+  padding: 20px;
+  color: whitesmoke;
+}
+#gal .wrap {
+  position: relative;
+  /* border: 10px solid red; */
+}
+#gal .wrap img {
+  border: 1px solid;
+  border-radius: 20px;
+}
+#gal .wrap .chev {
+  color: whitesmoke;
+  position: absolute;
+  padding: 20px 5px;
+  background-color: var(--gray7);
+  border-radius: 100px;
+  border: 1px solid var(--gray5);
+  top: 50%;
+}
+#gal .wrap .chev.l {
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+#gal .wrap .chev.r {
+  right: 0%;
+  transform: translate(-140%, -50%);
+}
+#gal .wrap .txts {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, 0);
+  text-align: center;
+}

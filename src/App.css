@@ -41,6 +41,6 @@
   color: #888;
 } */
 
-div {
-  border: none;
+* {
+  background-color: rgb(39, 39, 39);
 }

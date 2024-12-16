@@ -1,0 +1,35 @@
+.ni {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.ni p {
+  font-size: 0.8rem;
+  color: var(--gray5);
+}
+.ni input {
+  background-color: transparent;
+  border: 1px solid var(--gray5);
+  padding: 10px;
+  border-radius: 100px;
+  outline: none;
+}
+.ni input:focus {
+  border: aquamarine;
+  caret-color: aquamarine;
+}
+.ni input::placeholder {
+  color: gainsboro;
+}
+.ni button {
+  background-color: var(--red7);
+  padding: 10px 20px;
+  border-radius: 100px;
+  color: whitesmoke;
+  border: none;
+}
+.ni .btn {
+  flex-direction: row;
+  align-self: center;
+}

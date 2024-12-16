@@ -1,0 +1,28 @@
+.riri {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  color: whitesmoke;
+}
+
+.riri input {
+  border: 1px solid var(--gray4);
+  padding: 10px;
+  border-radius: 100px;
+  outline: none;
+  background-color: transparent;
+}
+.riri input:focus {
+  border: red;
+}
+.riri input::placeholder {
+  border: whitesmoke;
+}
+.riri button {
+  border: none;
+  background-color: var(--red7);
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 100px;
+}

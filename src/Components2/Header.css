@@ -1,0 +1,28 @@
+* {
+  background-color: rgb(37, 37, 37);
+}
+div .head {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+div .head button {
+  border: none;
+  color: rgb(185, 59, 59);
+  background-color: transparent;
+  cursor: pointer;
+}
+div .head button.r {
+  font-size: 30px;
+}
+div .head .log {
+  color: whitesmoke;
+  border-radius: 8px;
+  background-color: rgb(185, 59, 59);
+  padding: 10px;
+  margin-left: 10px;
+  transition: all 0.4s;
+}
+div .head .log:hover {
+  background-color: rgb(182, 23, 23);
+}

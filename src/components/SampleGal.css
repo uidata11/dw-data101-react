@@ -1,0 +1,32 @@
+#sgal {
+  padding: 20px;
+  color: whitesmoke;
+}
+.swrap {
+  position: relative;
+}
+
+#sgal .swrap img {
+  border: 1px solid;
+  border-radius: 20px;
+}
+#sgal .swrap .schev {
+  background-color: var(--gray7);
+  border: 1px solid var(--gray5);
+  position: absolute;
+  color: whitesmoke;
+  padding: 20px 5px;
+  border-radius: 100px;
+  top: 50%;
+}
+#sgal .swrap .schev.l {
+}
+#sgal .swrap .schev.r {
+}
+#sgal .stxts {
+  position: absolute;
+  bottom: 20px;
+  left: 45%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}

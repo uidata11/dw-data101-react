@@ -7,10 +7,10 @@ import { SiNetflix } from "react-icons/si";
 const SampleHeader = () => {
   return (
     <div className="header">
-      <button>
+      <button className="left">
         <SiNetflix />
       </button>
-      <div className="left">
+      <div className="right">
         <SampleLogin />
         <button className="login">로그인</button>
       </div>

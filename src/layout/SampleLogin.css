@@ -2,7 +2,7 @@
   background-color: transparent;
   border: 1px solid gainsboro;
   border-radius: 3px;
-  padding: 1%;
+  padding: 5% 20%;
   cursor: pointer;
 }
 .lan button:hover {

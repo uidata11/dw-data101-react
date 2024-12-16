@@ -1,0 +1,19 @@
+#mq {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(155, 155, 155);
+  transition: all 0.3;
+}
+/* mobile > 320px */
+/* tablit > 768px */
+/* desktop > 1024~1200px,1920px */
+@media all and (min-width: 768px) {
+  #mq {
+    background-color: aqua;
+  }
+  @media all and (min-width: 1024px) {
+    #mq {
+      background-color: rgb(146, 91, 69);
+    }
+  }
+}
